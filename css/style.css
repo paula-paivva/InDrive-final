@@ -1,0 +1,380 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    height: 100%;
+}
+.clear{
+    clear: both;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.left{
+    display: flex;
+    padding: 20px;
+}
+.logo{
+    width: 330px;
+}
+
+/**Links header**/
+nav ul li{
+    list-style-type: none;
+    margin-left: 10px;
+    float: right;
+    margin-top: 43px;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/**Botão call to action header**/
+.cta{
+    margin-top: -90px;
+}
+.CTA-header{
+    width: 280px;
+    height: 57px;
+    background-color: white;
+    border: 2px solid #7F868B;
+    border-radius: 11px;
+    -webkit-box-shadow: 3px 7px 13px -8px #000000; 
+    box-shadow: 3px 7px 13px -8px #000000;
+    float: right;
+    margin-right: 60px;
+}
+.CTA-header p{
+    font-size: 19px;
+
+    margin-top: 14px;
+    margin-left: 21px;
+}
+.CTA-header a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/**Imagem fundo header**/
+.imagem-fundo{
+    background-image: url(../img/imagem3.PNG);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: right;
+    width: 756px;
+    height: 530px;
+    float: right;
+    margin-top: -10px;
+    z-index: 1;
+}
+/**Section chamada**/
+.text-buttons{
+    float: left;
+    z-index: 99;
+    margin-top: -400px;
+}
+.chamada-principal h5{
+    font-size: 37px;
+    font-weight: normal;
+}
+.chamada-principal h4{
+    font-size: 37px;
+    font-weight: bold;
+}
+/**botões header**/
+.botoes-chamada1{
+    display: inline-block;
+    margin-top: 35px;
+}
+.CTA-headerPasageiro{
+    background-color: white;
+    border: 1px solid black;
+    width: 216px;
+    height: 49px;
+    -webkit-box-shadow: 3px 6px 12px -3px rgba(0,0,0,0.49); 
+    box-shadow: 3px 6px 12px -3px rgba(0,0,0,0.49);
+    border-radius: 11px;
+    padding: 9px 0px 0px 20px;
+    float: left;
+    margin-right: 50px;
+}
+.CTA-headerPasageiro a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: 18px;
+}
+.CTA-headerMotorista{
+    background-color: #9B86DC;
+    width: 216px;
+    height: 49px;
+    -webkit-box-shadow: 3px 6px 12px -3px rgba(0,0,0,0.49); 
+    box-shadow: 3px 6px 12px -3px rgba(0,0,0,0.49);
+    border-radius: 11px;
+    padding: 9px 0px 0px 20px;
+    float: right;
+}
+.CTA-headerMotorista a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: 18px;
+}
+/**beneficios**/
+section.beneficios{
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.container-beneficios{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+/**reset imagens beneficios**/
+.img-beneficios{
+    width: 100%;
+    height: 220px;
+}
+/**beneficios-single**/
+.beneficios-single{
+    float: left;
+	width: 33.3%;
+	position: relative;
+    border: 25px solid white;
+}
+.textos-ben{
+    max-width: 300px;
+    text-align: center;
+}
+.textos-ben h5{
+    color: #373F41;
+    font-size: 28px;
+    padding-bottom: 12px;
+}
+.textos-ben p{
+    color: #373F41;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+}
+/**Section calcular**/
+.container-calcular{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+}
+.wrap1{
+    width: 40%;
+}
+.wrap2{
+    width: 60%;
+}
+.elementos-calcular{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.elementos-calcular h5{
+    font-size: 35px;
+    color: black;
+}
+/**elementos de form**/
+form{
+    margin-top: 50px;
+}
+.input-container{
+    margin-bottom: 15px;
+}
+.input-container input[type=text]{
+    margin-top: 8px;
+    width: 300px;
+    height: 45px;
+    border: 1px solid rgb(121, 121, 121);
+    padding: 8px 10px;
+    border-radius: 11px;
+}
+.input-container input[typer=text]:focus{
+    outline: 0;
+}
+.submit-container{
+    margin-top: 40px;
+}
+.submit-container input[type=submit]{
+    width: 220px;
+    height: 45px;
+    background-color: #9B86DC;
+    border: 0;
+    border-radius: 11px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+/**img- Map | section calcular**/
+.img-map img{
+   margin-right: 50px;
+}
+/**Section chamada 2 | Seja um motorista**/
+.container-chamada2{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #DEDBEA;
+    margin-top: 10px;
+    display: flex;
+}
+.img-chamada2{
+    background-image: url(../img/section3.jpg);
+    background-repeat: no-repeat;
+    background-size: 850px 400px;
+    width: 850px;
+    height: 400px;
+}
+
+.infor-chamada2{
+    width: 450px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 25px;
+
+}
+.infor-chamada2 h4{
+    font-size: 31px;
+    font-weight: bold;
+    color: black;
+    margin-top: 30px;
+}
+.infor-chamada2 p{
+    color: black;
+    font-size: 19px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.infor-chamada2 input[type=submit]{
+    width: 250px;
+    height: 45px;
+    background-color: white;
+    color: #3C64B1;
+    border: 1px solid #3C64B1;
+    border-radius: 11px;
+    margin-top: 40px;
+}
+/**Section depoimentos**/
+.container-depoimento{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.texto{
+    margin-top: 40px;
+}
+.texto h6{
+    font-size: 19px;
+    font-weight: normal;
+}
+.texto h4{
+    margin-top: 4px;
+    font-size: 31px;
+    font-weight: bold;
+    color: black;
+}
+.depoimentos{
+    display: flex;
+}
+.dspoimento-single{
+	width: 33.3%;
+    position: relative;
+    border: 10px solid white;
+}
+.img-depoimento{
+    width: 300px;
+    height: 150px;
+    text-align: center;
+}
+.texto-depoimento{
+    max-width: 95%;
+    margin-top: 15px;
+}
+.texto-depoimento p{
+    font-size: 15px;
+    font-style: italic;
+    color: black;
+    margin-bottom: 15px;
+}
+.texto-depoimento span{
+    font-size: 14px;
+    color: #7F868B;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+/**Section empresas**/
+.container-empresas{
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #DEDBEA;
+    margin-top: 10px;
+    display: flex;
+}
+.img-empresa{
+    background-image: url(../img/depo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 850px 400px;
+    width: 850px;
+    height: 400px;
+}
+
+.infor-empresa{
+    width: 450px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 25px;
+
+}
+.infor-empresa h4{
+    font-size: 31px;
+    font-weight: bold;
+    color: black;
+    margin-top: 30px;
+}
+.infor-empresa p{
+    color: black;
+    font-size: 19px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.infor-empresa input[type=submit]{
+    width: 330px;
+    height: 45px;
+    background-color: white;
+    color: #3C64B1;
+    border: 1px solid #3C64B1;
+    border-radius: 11px;
+    margin-top: 40px;
+}
